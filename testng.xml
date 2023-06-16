@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="CVB Portal">
+  <test name="Regression Test">
+    <classes>
+      <class name="Tests.login_module_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

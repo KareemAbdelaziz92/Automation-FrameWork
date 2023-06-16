@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CVB Portal]">
+  <test thread-count="5" name="Regression Test(failed)">
+    <classes>
+      <class name="Tests.login_module_Test">
+        <methods>
+          <include name="Admin_can_login_successfully"/>
+          <include name="stopdriver"/>
+          <include name="screenshotonfailure"/>
+          <include name="startdriver"/>
+        </methods>
+      </class> <!-- Tests.login_module_Test -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [CVB Portal] -->
