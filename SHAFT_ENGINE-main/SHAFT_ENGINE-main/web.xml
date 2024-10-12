@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test thread-count="5" name="SuperAppSet3">
+        <classes>
+
+            <class name="Tests.WebLogintest" >
+                <parameter name="loginname" value="supernilesh99" />
+                <parameter name="password" value="Aa123123" />
+                <parameter name="executionDevie" value="Web" />
+                <parameter name="newLogin" value="Yes" />
+            </class>
+
+        </classes>
+    </test>
+</suite>
